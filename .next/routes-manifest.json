@@ -1,0 +1,232 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [
+    {
+      "page": "/blog/category/[slug]",
+      "regex": "^/blog/category/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/blog/category/(?<nxtPslug>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/blog",
+      "regex": "^/blog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog(?:/)?$"
+    },
+    {
+      "page": "/blog/complete-guide-agile-project-management",
+      "regex": "^/blog/complete\\-guide\\-agile\\-project\\-management(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/complete\\-guide\\-agile\\-project\\-management(?:/)?$"
+    },
+    {
+      "page": "/blog/fixed-term-project-management-benefits-short-term-pms",
+      "regex": "^/blog/fixed\\-term\\-project\\-management\\-benefits\\-short\\-term\\-pms(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/fixed\\-term\\-project\\-management\\-benefits\\-short\\-term\\-pms(?:/)?$"
+    },
+    {
+      "page": "/blog/fractional-vs-full-time-project-managers-comparison",
+      "regex": "^/blog/fractional\\-vs\\-full\\-time\\-project\\-managers\\-comparison(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/fractional\\-vs\\-full\\-time\\-project\\-managers\\-comparison(?:/)?$"
+    },
+    {
+      "page": "/blog/how-to-choose-right-project-manager",
+      "regex": "^/blog/how\\-to\\-choose\\-right\\-project\\-manager(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/how\\-to\\-choose\\-right\\-project\\-manager(?:/)?$"
+    },
+    {
+      "page": "/blog/outsourced-project-manager-saves-agencies-burnout",
+      "regex": "^/blog/outsourced\\-project\\-manager\\-saves\\-agencies\\-burnout(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/outsourced\\-project\\-manager\\-saves\\-agencies\\-burnout(?:/)?$"
+    },
+    {
+      "page": "/blog/project-management-mistakes-kill-startups",
+      "regex": "^/blog/project\\-management\\-mistakes\\-kill\\-startups(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/project\\-management\\-mistakes\\-kill\\-startups(?:/)?$"
+    },
+    {
+      "page": "/blog/scaling-startup-when-add-project-management",
+      "regex": "^/blog/scaling\\-startup\\-when\\-add\\-project\\-management(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/scaling\\-startup\\-when\\-add\\-project\\-management(?:/)?$"
+    },
+    {
+      "page": "/blog/signs-product-launch-needs-project-manager",
+      "regex": "^/blog/signs\\-product\\-launch\\-needs\\-project\\-manager(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/signs\\-product\\-launch\\-needs\\-project\\-manager(?:/)?$"
+    },
+    {
+      "page": "/blog/startup-project-management-avoiding-pitfalls",
+      "regex": "^/blog/startup\\-project\\-management\\-avoiding\\-pitfalls(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/startup\\-project\\-management\\-avoiding\\-pitfalls(?:/)?$"
+    },
+    {
+      "page": "/blog/when-to-hire-fractional-project-manager-startup",
+      "regex": "^/blog/when\\-to\\-hire\\-fractional\\-project\\-manager\\-startup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/when\\-to\\-hire\\-fractional\\-project\\-manager\\-startup(?:/)?$"
+    },
+    {
+      "page": "/careers",
+      "regex": "^/careers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/careers(?:/)?$"
+    },
+    {
+      "page": "/case-studies/clockpath",
+      "regex": "^/case\\-studies/clockpath(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/case\\-studies/clockpath(?:/)?$"
+    },
+    {
+      "page": "/case-studies/fitscheck",
+      "regex": "^/case\\-studies/fitscheck(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/case\\-studies/fitscheck(?:/)?$"
+    },
+    {
+      "page": "/case-studies/learnpinnacle",
+      "regex": "^/case\\-studies/learnpinnacle(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/case\\-studies/learnpinnacle(?:/)?$"
+    },
+    {
+      "page": "/case-studies/pairlance",
+      "regex": "^/case\\-studies/pairlance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/case\\-studies/pairlance(?:/)?$"
+    },
+    {
+      "page": "/case-studies/sharepact",
+      "regex": "^/case\\-studies/sharepact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/case\\-studies/sharepact(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/hire-project-manager",
+      "regex": "^/hire\\-project\\-manager(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/hire\\-project\\-manager(?:/)?$"
+    },
+    {
+      "page": "/pricing",
+      "regex": "^/pricing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pricing(?:/)?$"
+    },
+    {
+      "page": "/privacy",
+      "regex": "^/privacy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy(?:/)?$"
+    },
+    {
+      "page": "/process",
+      "regex": "^/process(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/process(?:/)?$"
+    },
+    {
+      "page": "/services",
+      "regex": "^/services(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services(?:/)?$"
+    },
+    {
+      "page": "/services/fractional",
+      "regex": "^/services/fractional(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/fractional(?:/)?$"
+    },
+    {
+      "page": "/services/full-time",
+      "regex": "^/services/full\\-time(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/full\\-time(?:/)?$"
+    },
+    {
+      "page": "/services/sprint",
+      "regex": "^/services/sprint(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/sprint(?:/)?$"
+    },
+    {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
+      "page": "/terms",
+      "regex": "^/terms(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terms(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}
